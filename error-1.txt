@@ -1,0 +1,216 @@
+[22:17:10] [Server thread/INFO]: Tia_Paw issued server command: /sell hand
+[22:17:10] [Server thread/INFO]: 9066.0
+[22:17:10] [Server thread/INFO]: 9066.0
+[22:17:10] [Server thread/INFO]: 9066.0
+[22:17:10] [Server thread/INFO]: 9066.0
+[22:17:10] [Server thread/INFO]: 9066.0
+[22:17:10] [Server thread/INFO]: 9066.0
+[22:17:18] [Server thread/INFO]: [PawEconomy] [STDOUT] DEPOSITING 9067.0 to Tia_Paw
+[22:17:20] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-376 (MC: 1.18.2) ---
+[22:17:20] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
+[22:17:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:17:20] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[22:17:20] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[22:17:20] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[22:17:20] [Paper Watchdog Thread/ERROR]: Entity UUID: 4de5d049-175f-47fb-ae81-1b584617ab6f
+[22:17:20] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (16.697553576098695, 86.0, 122.33891993099394)
+[22:17:20] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[22:17:20] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[16.397553564177766, 86.0, 122.03891991907301] -> [16.997553588019624, 87.79999995231628, 122.63891994291487]
+[22:17:20] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 104
+[22:17:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:17:20] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[22:17:20] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: true | State: RUNNABLE
+[22:17:20] [Paper Watchdog Thread/ERROR]: 	Stack:
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.SocketDispatcher.read0(Native Method)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:47)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.NioSocketImpl.tryRead(NioSocketImpl.java:261)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:312)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/java.net.Socket$SocketInputStream.read(Socket.java:966)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:791)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:726)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1688)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		PawEconomy-1.1.0-SNAPSHOT.jar//paw.pawminecraft.paweconomy.RPC.sendPost(RPC.java:51)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		PawEconomy-1.1.0-SNAPSHOT.jar//paw.pawminecraft.paweconomy.RPC.sendTransaction(RPC.java:139)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		PawEconomy-1.1.0-SNAPSHOT.jar//paw.pawminecraft.paweconomy.EconomyFuncs.addBalanceTP(EconomyFuncs.java:69)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		PawEconomy-1.1.0-SNAPSHOT.jar//paw.pawminecraft.paweconomy.VaultConnector.depositPlayer(VaultConnector.java:184)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.economy.layers.VaultLayer.deposit(VaultLayer.java:32)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.economy.EconomyLayer.set(EconomyLayer.java:37)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.User.setMoney(User.java:610)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.User.giveMoney(User.java:237)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.commands.Commandsell.sellItem(Commandsell.java:118)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.commands.Commandsell.run(Commandsell.java:57)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:172)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:797)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.Essentials.onCommand(Essentials.java:700)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R2.CraftServer.dispatchCommand(CraftServer.java:906)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleCommand(ServerGamePacketListenerImpl.java:2307)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleChat(ServerGamePacketListenerImpl.java:2118)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleChat(ServerGamePacketListenerImpl.java:2099)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundChatPacket.handle(ServerboundChatPacket.java:46)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundChatPacket.a(ServerboundChatPacket.java:6)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$6452/0x0000000801e62340.run(Unknown Source)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1400)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:188)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1377)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1370)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1348)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4109/0x00000008014613e8.run(Unknown Source)
+[22:17:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+[22:17:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:17:20] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[22:17:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:17:25] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-376 (MC: 1.18.2) ---
+[22:17:25] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
+[22:17:25] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:17:25] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[22:17:25] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[22:17:25] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[22:17:25] [Paper Watchdog Thread/ERROR]: Entity UUID: 4de5d049-175f-47fb-ae81-1b584617ab6f
+[22:17:25] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (16.697553576098695, 86.0, 122.33891993099394)
+[22:17:25] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[22:17:25] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[16.397553564177766, 86.0, 122.03891991907301] -> [16.997553588019624, 87.79999995231628, 122.63891994291487]
+[22:17:25] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 104
+[22:17:25] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:17:25] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[22:17:25] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: true | State: RUNNABLE
+[22:17:25] [Paper Watchdog Thread/ERROR]: 	Stack:
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.SocketDispatcher.read0(Native Method)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:47)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.NioSocketImpl.tryRead(NioSocketImpl.java:261)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:312)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/java.net.Socket$SocketInputStream.read(Socket.java:966)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:791)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:726)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1688)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		PawEconomy-1.1.0-SNAPSHOT.jar//paw.pawminecraft.paweconomy.RPC.sendPost(RPC.java:51)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		PawEconomy-1.1.0-SNAPSHOT.jar//paw.pawminecraft.paweconomy.RPC.sendTransaction(RPC.java:139)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		PawEconomy-1.1.0-SNAPSHOT.jar//paw.pawminecraft.paweconomy.EconomyFuncs.addBalanceTP(EconomyFuncs.java:69)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		PawEconomy-1.1.0-SNAPSHOT.jar//paw.pawminecraft.paweconomy.VaultConnector.depositPlayer(VaultConnector.java:184)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.economy.layers.VaultLayer.deposit(VaultLayer.java:32)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.economy.EconomyLayer.set(EconomyLayer.java:37)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.User.setMoney(User.java:610)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.User.giveMoney(User.java:237)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.commands.Commandsell.sellItem(Commandsell.java:118)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.commands.Commandsell.run(Commandsell.java:57)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:172)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:797)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.Essentials.onCommand(Essentials.java:700)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R2.CraftServer.dispatchCommand(CraftServer.java:906)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleCommand(ServerGamePacketListenerImpl.java:2307)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleChat(ServerGamePacketListenerImpl.java:2118)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleChat(ServerGamePacketListenerImpl.java:2099)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundChatPacket.handle(ServerboundChatPacket.java:46)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundChatPacket.a(ServerboundChatPacket.java:6)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$6452/0x0000000801e62340.run(Unknown Source)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1400)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:188)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1377)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1370)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1348)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4109/0x00000008014613e8.run(Unknown Source)
+[22:17:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+[22:17:25] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:17:25] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[22:17:25] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:17:30] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-376 (MC: 1.18.2) ---
+[22:17:30] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
+[22:17:30] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:17:30] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
+[22:17:30] [Paper Watchdog Thread/ERROR]: Ticking entity: minecraft:player, entity class: net.minecraft.server.level.EntityPlayer
+[22:17:30] [Paper Watchdog Thread/ERROR]: Entity status: removed: false, valid: true, alive: true, is passenger: false
+[22:17:30] [Paper Watchdog Thread/ERROR]: Entity UUID: 4de5d049-175f-47fb-ae81-1b584617ab6f
+[22:17:30] [Paper Watchdog Thread/ERROR]: Position: world: 'world' at location (16.697553576098695, 86.0, 122.33891993099394)
+[22:17:30] [Paper Watchdog Thread/ERROR]: Velocity: (0.0, -0.0784000015258789, 0.0) (in blocks per tick)
+[22:17:30] [Paper Watchdog Thread/ERROR]: Entity AABB: AABB[16.397553564177766, 86.0, 122.03891991907301] -> [16.997553588019624, 87.79999995231628, 122.63891994291487]
+[22:17:30] [Paper Watchdog Thread/ERROR]: Total packets processed on the main thread for all players: 104
+[22:17:30] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:17:30] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[22:17:30] [Paper Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: true | State: RUNNABLE
+[22:17:30] [Paper Watchdog Thread/ERROR]: 	Stack:
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.SocketDispatcher.read0(Native Method)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:47)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.NioSocketImpl.tryRead(NioSocketImpl.java:261)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:312)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/java.net.Socket$SocketInputStream.read(Socket.java:966)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/java.io.BufferedInputStream.fill(BufferedInputStream.java:244)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/java.io.BufferedInputStream.read1(BufferedInputStream.java:284)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/java.io.BufferedInputStream.read(BufferedInputStream.java:343)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.net.www.http.HttpClient.parseHTTPHeader(HttpClient.java:791)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.net.www.http.HttpClient.parseHTTP(HttpClient.java:726)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1688)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		PawEconomy-1.1.0-SNAPSHOT.jar//paw.pawminecraft.paweconomy.RPC.sendPost(RPC.java:51)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		PawEconomy-1.1.0-SNAPSHOT.jar//paw.pawminecraft.paweconomy.RPC.sendTransaction(RPC.java:139)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		PawEconomy-1.1.0-SNAPSHOT.jar//paw.pawminecraft.paweconomy.EconomyFuncs.addBalanceTP(EconomyFuncs.java:69)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		PawEconomy-1.1.0-SNAPSHOT.jar//paw.pawminecraft.paweconomy.VaultConnector.depositPlayer(VaultConnector.java:184)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.economy.layers.VaultLayer.deposit(VaultLayer.java:32)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.economy.EconomyLayer.set(EconomyLayer.java:37)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.User.setMoney(User.java:610)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.User.giveMoney(User.java:237)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.commands.Commandsell.sellItem(Commandsell.java:118)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.commands.Commandsell.run(Commandsell.java:57)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.commands.EssentialsCommand.run(EssentialsCommand.java:172)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.Essentials.onCommandEssentials(Essentials.java:797)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		EssentialsX-2.19.4.jar//com.earth2me.essentials.Essentials.onCommand(Essentials.java:700)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_18_R2.CraftServer.dispatchCommand(CraftServer.java:906)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleCommand(ServerGamePacketListenerImpl.java:2307)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleChat(ServerGamePacketListenerImpl.java:2118)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.handleChat(ServerGamePacketListenerImpl.java:2099)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundChatPacket.handle(ServerboundChatPacket.java:46)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.game.ServerboundChatPacket.a(ServerboundChatPacket.java:6)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PacketUtils.lambda$ensureRunningOnSameThread$1(PacketUtils.java:51)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.network.protocol.PlayerConnectionUtils$$Lambda$6452/0x0000000801e62340.run(Unknown Source)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1400)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.d(MinecraftServer.java:188)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1377)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1370)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1348)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1230)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:316)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$4109/0x00000008014613e8.run(Unknown Source)
+[22:17:30] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.3/java.lang.Thread.run(Thread.java:833)
+[22:17:30] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:17:30] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
+[22:17:30] [Paper Watchdog Thread/ERROR]: ------------------------------
+[22:17:31] [Server thread/INFO]: [Essentials] §eTia_Paw §asold§e diamond§a for §e1P §a(1 items at 1P each).
